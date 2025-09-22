@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georges Machhour Tech</title>
+    <meta name="description" content="Georges Machhour - Computer and Communications Engineering Student specializing in Systems & Networks">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='52' font-size='48'>🌐</text></svg>">
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">💻 Georges Machhour </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu" id="mobileMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-controls">
+                    <div class="control close"></div>
+                    <div class="control minimize"></div>
+                    <div class="control maximize"></div>
+                </div>
+            </div>
+            <div class="terminal-body">
+                <div class="terminal-line" style="animation-delay: 0.5s;">
+                    <span class="prompt">georges@portfolio:~$</span>
+                    <span class="command">whoami</span>
+                </div>
+                <div class="terminal-line" style="animation-delay: 1s;">
+                    <div class="output">Georges Machhour</div>
+                </div>
+                <div class="terminal-line" style="animation-delay: 1.5s;">
+                    <span class="prompt">georges@portfolio:~$</span>
+                    <span class="command">cat role.txt</span>
+                </div>
+                <div class="terminal-line" style="animation-delay: 2s;">
+                    <div class="output">CCE Student - Systems & Networks</div>
+                </div>
+                <div class="terminal-line" style="animation-delay: 2.5s;">
+                    <span class="prompt">georges@portfolio:~$</span>
+                    <span class="command">echo "Welcome to my portfolio"</span>
+                </div>
+                <div class="terminal-line" style="animation-delay: 3s;">
+                    <div class="output">Welcome to my portfolio</div>
+                </div>
+                <div class="terminal-line" style="animation-delay: 3.5s;">
+                    <span class="prompt">georges@portfolio:~$</span>
+                    <span class="typing-cursor">|</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="typewriter" data-text="> About Me">&gt; About Me</h2>
+        <div class="about-content">
+            <div>
+                <img src="assets/img/profile-img.webp" alt="Georges Machhour" class="profile-image">
+            </div>
+            <div class="about-text">
+                <p>As a highly motivated student in Computer and Communications Engineering - systems & networks, I am driven by a strong desire to broaden my expertise and my knowledge in this field. I'm actively seeking internships and part-time work opportunities to complement my studies.</p>
+                <br>
+                <p><strong>Location:</strong> Lebanon</p>
+                <p><strong>Status:</strong> Available for Freelance</p>
+                <p><strong>Email:</strong> <a href="mailto:georges.machhour@outlook.com" style="color: green;">georges.machhour@outlook.com</a></p>
+                <br>
+                <!-- <p>I specialize in backend development, networking, cybersecurity, and system administration. My passion lies in building secure, scalable systems and exploring the latest technologies in the field.</p> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="typewriter" data-text="> Technical Skills">&gt;  Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <ul class="skill-list">
+                    <li>HTML/CSS/JavaScript</li>
+                    <li>PHP & Laravel</li>
+                    <li>Node.js & Express</li>
+                    <li>API Development</li>
+                    <li>Google Analytics & Cloud</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <ul class="skill-list">
+                    <li>C++ (Data Structures & Algorithms)</li>
+                    <li>Java (OOP, JavaFx, SpringBoot)</li>
+                    <li>Python</li>
+                    <li>C# (.NET Framework)</li>
+                    <li>ARM Assembly</li>
+                    <li>Development of Open-Source systems in C</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Database Systems</h3>
+                <ul class="skill-list">
+                    <li>MySQL, MariaDB & SQL Plus</li>
+                    <li>PL/SQL Programming</li>
+                    <li>MongoDB (NoSQL)</li>
+                    <li>Database Design | Microsoft Visio</li>
+                    <li>Database Administration</li>
+                    <li>PHPmyAdmin</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Linux/Unix & Security</h3>
+                <ul class="skill-list">
+                    <li>Kali Linux & Parrot OS</li>
+                    <li>Ubuntu Desktop, AlmaLinux & RedHat</li>
+                    <li>Ununtu Server</li>
+                    <li>Virtualization (VMware & VirtualBox)</li>
+                    <li>Scripting</li>
+                    <li>Ethical Hacking</li>
+                    <li>Cybersecurity</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Networking & Systems</h3>
+                <ul class="skill-list">
+                    <li>Network Configuration</li>
+                    <li>Switching & Routing</li>
+                    <li>Wireless Networks</li>
+                    <li>Windows Server Management</li>
+                    <li>Enterprise Security</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Additional Skills</h3>
+                <ul class="skill-list">
+                    <li>Git Version Control</li>
+                    <li>Apache Guacamole</li>
+                    <li>Music Production</li>
+                    <li>English, French, Arabic and other Languages</li>
+                    <li>Soft Skills</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+       <h2 class="typewriter" data-text="> Experience">&gt; Experience</h2>
+        <div class="experience-timeline">
+            <div class="experience-item">
+                <div class="experience-date">MAY 2024 - AUG 2024</div>
+                <div class="experience-company">NELCOM DIGITAL - Backend Development Intern</div>
+                <p>Participated in an internship at NELCOM DIGITAL, which I was introduced through it to the following: Back-End Development / Laravel and PHP, Controllers, Services and Routes / Creating APIs / Google Analytics / Google Cloud / Data Retrieval from Google Analytics through a service account key serving as an API key / Data Retrieval from MATOMO through their APIs / Developing a JavaScript Analytics tag for an analytics Service Platform named "Oplatform" / Non-relational Databases / NodeJs / Apache Guacamole / Git.</p>
+                <br>
+                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <span style="background: var(--primary-color); color: var(--bg-dark); padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">Laravel</span>
+                    <span style="background: var(--secondary-color); color: white; padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">PHP</span>
+                    <span style="background: var(--accent-color); color: white; padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">APIs</span>
+                    <span style="background: var(--primary-color); color: var(--bg-dark); padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">NodeJs</span>
+
+                    <span style="background: var(--secondary-color); color: white; padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">Matomo</span>
+                    <span style="background: var(--primary-color); color: var(--bg-dark); padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">Google Analytics</span>
+
+                    <span style="background: var(--accent-color); color: white; padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">Google Cloud Console</span>
+                    <span style="background: var(--primary-color); color: var(--bg-dark); padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">Apache Guacamole</span>
+                    <span style="background: var(--secondary-color); color: white; padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">Git</span>
+                    <span style="background: var(--accent-color); color: white; padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">Javascript</span>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-date">JUL 2023 - SEP 2023</div>
+                <div class="experience-company">IDS Fintech - Software Development Intern</div>
+                <p>Gained hands-on experience in API development, SQL server integration, CRUD operations, C# async programming, Windows application development, and database management. Developed comprehensive understanding of enterprise software development practices.</p>
+                <br>
+                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <span style="background: var(--secondary-color); color: white; padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">C#</span>
+                    <span style="background: var(--accent-color); color: white; padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">.NET</span>
+                    <span style="background: var(--primary-color); color: var(--bg-dark); padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">SQL Server</span>
+                    <span style="background: var(--accent-color); color: white; padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">OOP</span>
+                    <span style="background: var(--primary-color); color: var(--bg-dark); padding: 3px 8px; border-radius: 3px; font-size: 0.8rem;">Async Programming</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <h2 class="typewriter" data-text="> Certifications">&gt; Certifications</h2>
+        <div class="cert-grid">
+            <!-- <div class="cert-item" onclick="openModal('cert1')">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=300&h=200&fit=crop" alt="CCE Degree Certificate" class="cert-image">
+                <div class="cert-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h4>Bachelor of CCE</h4>
+                <p>Computer and Communication Engineering</p>
+                <p><small>Antonine University (2021 - Present)</small></p>
+            </div> -->
+
+            <div class="cert-item" onclick="openModal('cert5')">
+                <img src="assets/img/portfolio-4.jpg" alt="Internship Certificate" class="cert-image">
+                <div class="cert-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h4>Internship</h4>
+                <p>IDS Fintech</p>
+            </div>
+            <div class="cert-item" onclick="openModal('cert6')">
+                <img src="assets/img/portfolio-5.jpg" alt="Internship Certificate" class="cert-image">
+                <div class="cert-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h4>Internship</h4>
+                <p>NELCOM DIGITAL - Social Aim</p>
+            </div>
+
+            <div class="cert-item" onclick="openModal('cert2')">
+                <img src="assets/img/portfolio-1.jpg" alt="Networking Certificate" class="cert-image">
+                <div class="cert-icon">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <h4>Networking</h4>
+                <p>Introduction to Networks</p>
+                
+            </div>
+            <div class="cert-item" onclick="openModal('cert3')">
+                <img src="assets/img/portfolio-2.jpg" alt="Networking Certificate" class="cert-image">
+                <div class="cert-icon">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <h4>Networking</h4>
+                <p>Switching, Routing, and Wireless Essentials</p>
+                 
+            </div>
+
+            <div class="cert-item" onclick="openModal('cert4')">
+                <img src="assets/img/portfolio-1.jpg" alt="Networking Certificate" class="cert-image">
+                <div class="cert-icon">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <h4>Networking</h4>
+                <p>Enterprise Networking</p>
+                
+            </div>
+
+            <div class="cert-item" onclick="openModal('cert8')">
+                <img src="assets/img/cert2.jpeg" alt="Cybersecurity Certificate" class="cert-image">
+                <div class="cert-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h4>Cybersecurity</h4>
+                <!-- <p>Ethical Hacking & Security</p>
+                <p><small>Linux Security Systems</small></p> -->
+            </div>
+            <div class="cert-item" onclick="openModal('cert7')">
+                <img src="assets/img/cert1.jpeg" alt="Programming Certificate" class="cert-image">
+                <div class="cert-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h4>Python</h4>
+                
+            </div>
+            <!-- <div class="cert-item" onclick="openModal('cert5')">
+                <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=300&h=200&fit=crop" alt="Database Certificate" class="cert-image">
+                <div class="cert-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h4>Database Management</h4>
+                <p>SQL & NoSQL Databases</p>
+                <p><small>MySQL, MongoDB, PL/SQL</small></p>
+            </div>
+            <div class="cert-item" onclick="openModal('cert6')">
+                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=200&fit=crop" alt="Music Production Certificate" class="cert-image">
+                <div class="cert-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h4>Additional Skills</h4>
+                <p>Music & Audio Production</p>
+                <p><small>Creative & Technical Balance</small></p>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Modal for Certificate Images -->
+    <div id="certificateModal" class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" class="modal-image" src="" alt="Certificate">
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+<h2 class="typewriter" data-text="> Get In Touch">&gt; Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Lebanon</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:georges.machhour@outlook.com">georges.machhour@outlook.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Available for Freelance & Internships</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/georges-machhour-5993b1291/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/GeorgesMachhour" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://georgesmachhourmusic.netlify.app" class="social-link" target="_blank">
+                        <i class="fas fa-music"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-info">
+                <h3>Send a Message</h3>
+                <form action="https://formspree.io/f/xblzrzjn" method="POST">
+                    <div style="margin-bottom: 1rem;">
+                        <label for="name" style="display: block; margin-bottom: 0.5rem;">Your Name</label>
+                        <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 4px; background: var(--bg-terminal); color: var(--text-primary);">
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label for="email" style="display: block; margin-bottom: 0.5rem;">Your Email</label>
+                        <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 4px; background: var(--bg-terminal); color: var(--text-primary);">
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label for="message" style="display: block; margin-bottom: 0.5rem;">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 4px; background: var(--bg-terminal); color: var(--text-primary);"></textarea>
+                    </div>
+                    <button type="submit" style="background: var(--primary-color); color: var(--bg-dark); padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; transition: background 0.3s;">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section">
+            <p>&copy; 2025 Georges Machhour. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; color: var(--text-secondary);">Built with passion for technology and innovation</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenu = document.getElementById('mobileMenu');
+        const navLinks = document.getElementById('navLinks');
+
+        function toggleMobileMenu() {
+            navLinks.classList.toggle('active');
+            const icon = mobileMenu.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        }
+
+        function closeMobileMenu() {
+            navLinks.classList.remove('active');
+            const icon = mobileMenu.querySelector('i');
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+        }
+
+        mobileMenu.addEventListener('click', toggleMobileMenu);
+
+        // Close mobile menu when clicking on a link
+        navLinks.addEventListener('click', (e) => {
+            if (e.target.tagName === 'A') {
+                closeMobileMenu();
+            }
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navLinks.contains(e.target) && !mobileMenu.contains(e.target)) {
+                if (navLinks.classList.contains('active')) {
+                    closeMobileMenu();
+                }
+            }
+        });
+
+        // Active navigation link management
+        const navLinksArray = document.querySelectorAll('.nav-links a');
+        const sections = document.querySelectorAll('section[id]');
+
+        // Update active link on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const scrollPosition = window.scrollY + 100;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinksArray.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Update active link on click
+        navLinksArray.forEach(link => {
+            link.addEventListener('click', function() {
+                navLinksArray.forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Certificate modal functions
+        function openModal(certId) {
+            const modal = document.getElementById('certificateModal');
+            const modalImage = document.getElementById('modalImage');
+            
+            // Map certificate IDs to images (replace these URLs with your actual certificate images)
+            const certImages = {
+                'cert1': 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&h=600&fit=crop',
+                'cert2': 'assets/img/portfolio-1.jpg', // Updated to the new image path
+                'cert3': 'assets/img/portfolio-2.jpg', // Updated to the new image path
+                'cert4': 'assets/img/portfolio-3.jpg', // Updated to the new image path
+                'cert5': 'assets/img/portfolio-4.jpg', // Updated to the new image path
+                'cert6': 'assets/img/portfolio-5.jpg',  // Updated to the new image path
+                'cert7': 'assets/img/cert1.jpeg',
+                'cert8': 'assets/img/cert2.jpeg'
+            };
+            
+            modalImage.src = certImages[certId];
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('certificateModal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Re-enable scrolling
+        }
+
+        // Close modal when clicking outside the image
+        document.getElementById('certificateModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.style.background = 'rgba(26, 26, 26, 0.98)';
+            } else {
+                navbar.style.background = 'rgba(26, 26, 26, 0.95)';
+            }
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all skill categories and experience items
+        document.querySelectorAll('.skill-category, .experience-item, .cert-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Terminal typing effect for additional interactivity
+        let terminalCommands = [
+           
+        ];
+
+        let commandIndex = 0;
+        
+        // Add typing effect to terminal after initial animation
+        setTimeout(() => {
+    const terminalBody = document.querySelector('.terminal-body');
+    if (terminalBody && window.innerWidth > 768) {
+        const interval = setInterval(() => {
+            if (commandIndex < terminalCommands.length) {
+                const newLine = document.createElement('div');
+                newLine.className = 'terminal-line';
+                newLine.innerHTML = `
+                    <span class="prompt">georges@portfolio:~$</span>
+                    <span class="command">${terminalCommands[commandIndex]}</span>
+                `;
+                newLine.style.opacity = '0';
+                newLine.style.animation = 'fadeIn 0.5s ease-out forwards';
+
+                // Remove cursor from last line
+                const lastCursor = document.querySelector('.typing-cursor');
+                if (lastCursor) lastCursor.remove();
+
+                terminalBody.appendChild(newLine);
+
+                // Add new cursor
+                const cursorLine = document.createElement('div');
+                cursorLine.className = 'terminal-line';
+                cursorLine.innerHTML = `
+                    <span class="prompt">georges@portfolio:~$</span>
+                    <span class="typing-cursor">|</span>
+                `;
+                terminalBody.appendChild(cursorLine);
+
+                commandIndex++;
+
+                // Keep only last 8 lines visible
+                const allLines = terminalBody.querySelectorAll('.terminal-line');
+                if (allLines.length > 8) {
+                    allLines[0].remove();
+                }
+            } else {
+                clearInterval(interval); // ✅ stop adding new lines
+            }
+        }, 3000);
+    }
+}, 5000);
+
+
+        // Add glitch effect to logo
+        const logo = document.querySelector('.logo');
+        setInterval(() => {
+            logo.style.textShadow = '2px 0 #ff00ff, -2px 0 #00ffff';
+            setTimeout(() => {
+                logo.style.textShadow = 'none';
+            }, 150);
+        }, 5000);
+
+        // Matrix rain effect for background (subtle)
+        function createMatrixRain() {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            canvas.style.position = 'fixed';
+            canvas.style.top = '0';
+            canvas.style.left = '0';
+            canvas.style.width = '100%';
+            canvas.style.height = '100%';
+            canvas.style.zIndex = '-1';
+            canvas.style.opacity = '0.1';
+            document.body.appendChild(canvas);
+
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            const letters = '01';
+            const fontSize = 14;
+            const columns = canvas.width / fontSize;
+            const drops = [];
+
+            for (let i = 0; i < columns; i++) {
+                drops[i] = 1;
+            }
+
+            function draw() {
+                ctx.fillStyle = 'rgba(10, 10, 10, 0.05)';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                ctx.fillStyle = '#00ff00';
+                ctx.font = fontSize + 'px monospace';
+
+                for (let i = 0; i < drops.length; i++) {
+                    const text = letters[Math.floor(Math.random() * letters.length)];
+                    ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                    
+                    if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                        drops[i] = 0;
+                    }
+                    drops[i]++;
+                }
+            }
+
+            setInterval(draw, 50);
+
+            window.addEventListener('resize', () => {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            });
+        }
+
+        // Initialize matrix effect only on desktop
+        if (window.innerWidth > 1024) {
+            createMatrixRain();
+        }
+
+        // Add particle effect on scroll
+        let particles = [];
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.vx = (Math.random() - 0.5) * 2;
+                this.vy = (Math.random() - 0.5) * 2;
+                this.life = 60;
+                this.maxLife = 60;
+            }
+
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                this.life--;
+            }
+
+            draw(ctx) {
+                const alpha = this.life / this.maxLife;
+                ctx.globalAlpha = alpha;
+                ctx.fillStyle = '#00ff00';
+                ctx.fillRect(this.x, this.y, 2, 2);
+                ctx.globalAlpha = 1;
+            }
+        }
+
+        // Scroll-triggered particles
+        window.addEventListener('scroll', () => {
+            if (Math.random() > 0.9) {
+                particles.push(new Particle(
+                    Math.random() * window.innerWidth,
+                    window.scrollY + Math.random() * window.innerHeight
+                ));
+            }
+        });
+
+        // Animate particles
+        function animateParticles() {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            canvas.style.position = 'fixed';
+            canvas.style.top = '0';
+            canvas.style.left = '0';
+            canvas.style.width = '100%';
+            canvas.style.height = '100%';
+            canvas.style.zIndex = '999';
+            canvas.style.pointerEvents = 'none';
+            document.body.appendChild(canvas);
+
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                
+                particles = particles.filter(particle => {
+                    particle.update();
+                    particle.draw(ctx);
+                    return particle.life > 0;
+                });
+
+                requestAnimationFrame(animate);
+            }
+
+            animate();
+
+            window.addEventListener('resize', () => {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            });
+        }
+
+        if (window.innerWidth > 768) {
+            animateParticles();
+        }
+        
+
+
+        // Add this to your existing JavaScript
+// Typewriter animation on scroll
+const typewriterTitles = document.querySelectorAll('.typewriter');
+
+// Initially hide all typewriter titles
+typewriterTitles.forEach(title => {
+    title.style.width = '0';
+    title.style.animation = 'none';
+});
+
+const typewriterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Start the animation when section comes into view
+            entry.target.style.animation = 
+                `typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite`;
+            entry.target.style.animationFillMode = 'forwards';
+            
+            // Stop observing after animation starts
+            typewriterObserver.unobserve(entry.target);
+        }
+    });
+}, { 
+    threshold: 0.5,
+    rootMargin: '0px 0px -100px 0px'
+});
+
+// Observe all typewriter titles
+typewriterTitles.forEach(title => {
+    typewriterObserver.observe(title);
+});
+    </script>
+</body>
+</html>
