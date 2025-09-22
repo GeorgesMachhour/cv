@@ -693,6 +693,28 @@
 
 
 
+
+            /* Prevent terminal overflow on very small screens */
+@media (max-width: 480px) {
+    .terminal-window {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+    }
+
+    .terminal-body {
+        padding: 1rem; /* reduce padding so text fits */
+        overflow-x: hidden; /* prevent horizontal scroll / overflow */
+        word-wrap: break-word; /* allow text to break */
+    }
+
+    .terminal-line {
+        flex-wrap: wrap; /* allow long commands to break into next line */
+    }
+}
+
+
             
         }
   
