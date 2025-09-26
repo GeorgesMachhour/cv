@@ -759,5 +759,76 @@ typewriterTitles.forEach(title => {
     typewriterObserver.observe(title);
 });
     </script>
+
+
+
+
+
+
+    <div id="go-to-top-wrapper">
+  <style>
+    #go-to-top-btn {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      width: 50px;
+      height: 50px;
+      background: var(--primary-color, #00ff00);
+      color: var(--bg-dark, #1a1a1a);
+      border: none;
+      border-radius: 50%;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+    }
+
+    #go-to-top-btn.show {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    #go-to-top-btn:hover {
+      background: var(--accent-color, #00cc00);
+      transform: translateY(-3px);
+    }
+  </style>
+
+  <button id="go-to-top-btn" aria-label="Go to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script>
+    (function() {
+      const goToTopBtn = document.getElementById('go-to-top-btn');
+
+      const toggleVisibility = () => {
+        if (window.scrollY > 400) {
+          goToTopBtn.classList.add('show');
+        } else {
+          goToTopBtn.classList.remove('show');
+        }
+      };
+
+      const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      };
+
+      window.addEventListener('scroll', toggleVisibility);
+      goToTopBtn.addEventListener('click', scrollToTop);
+    })();
+  </script>
+</div>
 </body>
+
 </html>
